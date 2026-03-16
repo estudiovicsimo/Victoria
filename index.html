@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Victória | Design, Branding e Presença Digital</title>
 
+    <meta property="og:title" content="Victória Simões — Identidade Visual e Web Design">
+    <meta property="og:description"
+        content="Identidade visual e landing pages para novos negócios que querem começar com uma presença digital profissional.">
+    <meta property="og:image" content="https://estudiovicsimo.github.io/Victoria/imagens/preview-site.jpg">
+    <meta property="og:url" content="https://estudiovicsimo.github.io/Victoria/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Estúdio Victória Simões">
+
     <meta name="author" content="Victória Simões">
     <meta name="keywords"
         content="design gráfico, identidade visual, branding, design para marcas, designer freelancer, criação de marca, design digital">
@@ -746,53 +755,53 @@
     </script>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
-<script>
+    <script>
 
-gsap.registerPlugin(ScrollTrigger);
+        gsap.registerPlugin(ScrollTrigger);
 
-// cards de serviços
-gsap.from(".flip-card", {
-  opacity: 0,
-  y: 40,
-  duration: 0.8,
-  stagger: 0.2,
-  ease: "power2.out",
-  scrollTrigger: {
-    trigger: "#servicos",
-    start: "top 80%"
-  }
-});
+        // cards de serviços
+        gsap.from(".flip-card", {
+            opacity: 0,
+            y: 40,
+            duration: 0.8,
+            stagger: 0.2,
+            ease: "power2.out",
+            scrollTrigger: {
+                trigger: "#servicos",
+                start: "top 80%"
+            }
+        });
 
-// texto do sobre
-gsap.from(".text_sobre", {
-  opacity: 0,
-  y: 30,
-  duration: 0.8,
-  stagger: 0.2,
-  ease: "power2.out",
-  scrollTrigger: {
-    trigger: "#sobre",
-    start: "top 80%"
-  }
-});
+        // texto do sobre
+        gsap.from(".text_sobre", {
+            opacity: 0,
+            y: 30,
+            duration: 0.8,
+            stagger: 0.2,
+            ease: "power2.out",
+            scrollTrigger: {
+                trigger: "#sobre",
+                start: "top 80%"
+            }
+        });
 
-// projetos
-gsap.from("#projetos img", {
-  opacity: 0,
-  y: 30,
-  duration: 0.6,
-  stagger: 0.15,
-  ease: "power2.out",
-  scrollTrigger: {
-    trigger: "#projetos",
-    start: "top 80%"
-  }
-});
+        // projetos
+        gsap.from("#projetos img", {
+            opacity: 0,
+            y: 30,
+            duration: 0.6,
+            stagger: 0.15,
+            ease: "power2.out",
+            scrollTrigger: {
+                trigger: "#projetos",
+                start: "top 80%"
+            }
+        });
 
-</script>
+    </script>
 
 </body>
 
